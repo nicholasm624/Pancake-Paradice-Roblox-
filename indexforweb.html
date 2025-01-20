@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World Famous Pancakes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional custom styling to change text to black */
+        .hero h1, .hero p {
+            color: black; /* Set text color to black for h1 and p in hero section */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand text-dark font-weight-bold" href="#">Pancake Paradise</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="menu.html">Menu</a> <!-- Link to the new menu page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-gradient text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-3 font-weight-bold">Dive Into the Fluffiest Pancakes Ever</h1>
+            <p class="lead">Join us at Pancake Paradise and taste the world-famous pancakes that everyone is talking about!</p>
+            <a href="menu.html" class="btn btn-light btn-lg mt-3">Browse Our Delicious Menu</a> <!-- Link to the menu page -->
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5" style="background-color: #ffdf85;">
+        <div class="container text-center">
+            <h2 class="font-weight-bold text-primary">About Us</h2>
+            <p class="lead">Our pancakes are not just a meal — they’re an experience! Made with love, passion, and the finest ingredients, we bring you the fluffiest, most flavorful pancakes you'll ever taste. Our secret recipe has been passed down for generations, and now we're ready to share it with you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" style="background-color: #ffef92;">
+        <div class="container text-center">
+            <h2 class="font-weight-bold text-primary">Contact Us</h2>
+            <p class="lead">Got questions or want to place an order? We're here to serve you. Reach out to us and let us know how we can help!</p>
+            <a href="mailto:info@pancakeparadise.com" class="btn btn-warning btn-lg">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Pancake Paradise | All rights reserved | Crafted with love</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 15px;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1500x600?text=Pancakes');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #ff6f00;
+    border-color: #ff6f00;
+}
+
+.hero .btn:hover {
+    background-color: #d75e00;
+    border-color: #d75e00;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+#about {
+    background-color: #ffdf85;
+}
+
+#menu {
+    background-color: #fff5e1;
+}
+
+#contact {
+    background-color: #ffef92;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
